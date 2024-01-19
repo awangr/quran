@@ -1,6 +1,6 @@
 # quran
 
-A new Flutter project.
+Belajar Integrasi api Quran Apps 
 
 ## Getting Started
 
