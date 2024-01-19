@@ -1,0 +1,35 @@
+name: quran
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  http: ^0.13.5
+  just_audio: ^0.9.32
+  lottie: ^2.3.1
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.0
+  shared_preferences: ^2.2.2
+  flutter_test: 
+    sdk: flutter
+
+flutter_icons: 
+  android: launcher_icon
+  image_path: assets/icon/icon.jpg
+  ios: true
+
+flutter: 
+  assets: 
+    - assets/lottie_files/
+    - assets/logo/
+  uses-material-design: true
+
